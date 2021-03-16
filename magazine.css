@@ -1,0 +1,388 @@
+body {
+    width: 930px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: rgb(34, 34, 34);
+    font-family: Georgia, Times, "Times New Roman", serif;
+ 
+}
+header {
+    position: relative;
+    margin: 0 auto;
+    border-color: tomato;
+    
+}
+article header{
+    position: relative;
+    margin: 0 auto;
+    border-color: tomato;
+    margin-top: -20px;
+    margin-bottom: 30px;;
+}
+.cover {
+    position: relative;
+    background: url('sea_life.png') 380px no-repeat;
+    width: 100%; 
+    height: 300px;
+    margin-top: -50px;
+    margin-bottom: 19px;
+    border-color: yellowgreen;
+
+}
+.logo{
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: 0 auto;;
+    width: 100%;  
+    height: 75px;
+    font-size: 75px;  
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+    margin-top: -20px;
+    z-index: 3;
+}
+.badge{
+    position:absolute;
+    top:110px;
+    right:215px;
+    color:white;
+    background-color: rgb(218, 83, 59);
+    background-color: rgba(218, 83, 59, 0.85);
+    border-radius: 50%;
+    display: block;
+    width: 120px;
+    height: 120px;
+    z-index: -1;
+    
+}
+.badgeup{
+    position:absolute;
+    top:110px;
+    right:215px;
+    color:rgb(255, 255, 255);
+    border-radius: 50%;
+    display: block;
+    width: 120px;
+    height: 120px;
+    font-weight: 800;
+    text-align: center;
+    font-size: 64px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    font-family: "Open Sans";
+    z-index: 1;
+    text-decoration: none;
+    
+}
+.badgeup small{
+    display:block;
+    width:40px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0px;
+    font-family: arial;
+    margin-left: 30px;
+    margin-bottom: -2px;
+    font-style: italic;
+}
+.cover a:hover {
+    text-shadow: black 2px 2px 2px;
+    box-shadow: black 1px 1px 2px;
+}
+#mother {
+    position:absolute;
+    display:block;
+    width: 180px;
+    height: 100px;
+    top:120px;
+    right:335px;
+    z-index: 3;
+}
+#baby {
+    position:absolute;
+    display:block;
+    width: 100px;
+    height: 30px;
+    top:230px;
+    right:335px;
+    z-index: 3;
+}
+.post_title{
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    display: block;
+    height: 42px;
+    margin-bottom: 20px;
+}
+
+.post_data, .published{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 0px;
+    
+}
+.author {
+    text-decoration: none;
+    color: rgb(36, 85, 195);
+    line-height: 30px;
+}
+.author:hover {
+    text-decoration: underline;
+}
+time:before {
+    content: " · ";
+}
+main {
+    display:table;
+    min-width: 250px;
+    width:100%;
+    margin: 0 auto;
+}
+.published {
+    font-size: 14px;
+}
+.published a {
+    text-decoration: none;
+    color: rgb(36, 85, 195);
+}
+.published a:hover {
+    text-decoration: underline;
+}
+.editors_note {
+    background: url(pen.png) no-repeat;
+    background-color: rgb(249, 249, 249);
+    background-size: 30px;
+    background-position-x: 12px;
+    background-position-y: 14px;
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 0 36px;
+    display: block;
+    padding: 12px;
+    padding-left: 55px;
+    
+}
+.article_content {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 90%;
+}
+blockquote {
+    margin: 32px;
+    font-size: 18px;
+    font-style: italic;
+}
+.banner {
+    display: block;
+    position: relative;
+    width: 250px;
+    float: right;
+}
+.share, .inspiration, .university, .ad {
+    position: relative;
+    display:block;
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 1px solid rgb(214, 211, 211);
+    border-radius: 3px;
+}
+.university{
+    height: 130px;
+}
+.share h1, .university h1 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 3px; 
+    padding: 0px;
+    text-align: center;
+    font-style: italic;
+}
+.facebook {
+    font-family: "Helvetica", sans-serif;
+    font-size: 55px;
+    color:rgb(255, 255, 255);
+    background-color: #4267B2;
+    border: 2px solid #4267B2;
+    display: block;
+    width: 40px;
+    height: 50px;
+    text-align: right;
+    padding-right: 10px;
+    padding-left: -10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.facebook:hover {
+    font-family: "Helvetica", sans-serif;
+    font-size: 55px;
+    color:#4267B2;
+    border: 2px solid #4267b2;
+    background-color: white;
+    display: block;
+    width: 40px;
+    height: 50px;
+    text-align: right;
+    padding-right: 10px;
+    padding-left: -10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.linkedin {
+    font-family: "Open Sans",sans-serif;
+    font-size: 44px;
+    color:white;
+    background-color: #0077b5;
+    display: block;
+    width: 47px;
+    height: 50px;
+    text-align: center;
+    padding-left: 3px;
+    border-radius: 10px;
+    font-weight: bold;
+    line-height: 50px;  
+    border: 2px solid #0077b5;
+    text-decoration: none;
+}
+.linkedin:hover {
+    font-family: "Open Sans",sans-serif;
+    font-size: 44px;
+    color:#0077b5;
+    background-color: #ffffff;
+    display: block;
+    width: 47px;
+    height: 50px;
+    text-align: center;
+    padding-left: 3px;
+    border-radius: 10px;
+    font-weight: bold;
+    line-height: 50px;  
+    border: 2px solid #4267B2;
+    text-decoration: none;
+}
+.banner ul {
+    margin: 10px auto;
+    padding: 0px;
+    width: 200px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.university img{
+    display: block;
+    width: 200px;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+.university img:hover {
+    width: 220px;
+    margin-top: 0px;
+}
+.inspiration img {
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 0px;
+}
+#olive {
+    display: block;
+    width: 40%;
+    margin: 0px auto;
+    margin-top: -5px;
+}
+#olive:hover {
+    display: block;
+    width: 40%;
+    margin: 0px auto;
+    margin-top: -5px;
+    transition: 1s;
+    transform: rotateY(180deg);
+}
+.ad h1{
+    color: white;
+    font-family: "Open Sans",sans-serif;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.2;
+    padding:0px 0px 0px 50px;
+    margin:0px; 
+}
+.ad a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+.ad {
+    border-color: rgb(218, 83, 59);
+    border-color: rgba(218, 83, 59, 0.85);
+    background-color: rgb(218, 83, 59);
+    background-color: rgba(218, 83, 59, 0.85);
+}
+.ad:hover {
+    box-shadow: 2px 2px 2px;
+}
+.ad:active {
+    transition: 0.3s;
+    box-shadow: none;
+    transform: translate(2px);
+}
+#ocean, #mammals {
+    color: rgb(218, 83, 59);
+    color: rgba(218, 83, 59, 0.85);
+}
+.article_footer {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.article_footer h3 {
+    text-align: center;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 24px;
+}
+.author_data {
+    width: 100%;
+    min-height: 155px;
+    display: block;
+    margin: 0 auto;
+}
+.author_img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    float: left;
+    
+}
+#author_name {
+    font-family: "Libre Franklin", sans-serif;
+    text-align: left;
+    display: block;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 160px;
+    margin-bottom: 3px;
+
+}
+.author_bio {
+    font-family: "Georgia", sans-serif;
+    font-size: 14px;
+    text-align: left;
+    display: block;
+    width: auto;
+    margin-left: 160px;
+}
+.author_img img{
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+}
+
