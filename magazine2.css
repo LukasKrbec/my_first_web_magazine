@@ -115,8 +115,7 @@ article header{
     font-size: 36px;
     line-height: 42px;
     display: block;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 0px 10px;
     margin-bottom: 20px;
 }
 
@@ -494,8 +493,5 @@ blockquote {
     }
     header time:before{
         display: none;
-    }
-    .post_title {
-        font-size: 30px;
     }
 }
